@@ -15,6 +15,8 @@ body {
     cursor: pointer;
     transform: perspective(1000px) rotateY(var(--rotate-y, 0)) 
     translateY(var(--translate-y, 0));
+    height: 150px;
+    width: 150px;
 }
 .card:hover {
     --translate-y:  -2px;
@@ -36,6 +38,9 @@ body {
 }
 .card .back {
     transform: rotateX(180deg);
+}
+.flash-options {
+    margin-top: .5rem;
 }
 
 .flashcard-option {
